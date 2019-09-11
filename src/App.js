@@ -33,8 +33,7 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        
-  
+
       </div>
     </nav>
     <Route exact path='/' component={Home} />

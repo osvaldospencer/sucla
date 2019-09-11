@@ -26,7 +26,7 @@ class Home extends Component{
       }
       renderGenreLink(genre){
         return(
-          <span><a href=''>{genre}</a></span>
+          <span><a href='/'>{genre}</a></span>
         )
       }
     render(){
@@ -36,7 +36,7 @@ class Home extends Component{
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1><img src="images/logo.png" /></h1>
+            <h1><img src="images/logo.png" alt="logo" /></h1>
             <p>Nunca mais esqueça uma série que você assistiu ou que alguém lhe indicou.</p>
           </div>
         </div>
@@ -61,7 +61,7 @@ class Home extends Component{
                           AÇÃO</p>
                       </div>
                       <div className="col-xs-12 col-md-6">
-                        <a className="btn btn-success" href="">Gerenciar</a>
+                        <a className="btn btn-success" href="/">Gerenciar</a>
                       </div>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ class Home extends Component{
         this.state.isLoading &&
         <div>
         <span> Aguarde, a carregar ...</span>
-        
+        <Login />
         </div>
       }
       { 

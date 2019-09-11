@@ -22,6 +22,7 @@ class App extends Component {
               <img src="images/logo.png" height="30" alt="logo" />
           </a>
         </div>
+        
   
         <div className="collapse navbar-collapse navbar-ex1-collapse">
           <ul className="nav navbar-nav">
